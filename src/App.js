@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <React.Suspense fallback={<GetLoader />}>
         <Routes>
-          {/*  */}
           <Route index path="/*" element={<User />} />
         </Routes>
       </React.Suspense>
