@@ -7,11 +7,12 @@ const User = React.lazy(() => import("./Modules/User"));
 function App() {
   return (
     <div className="App">
-    <React.Suspense fallback={<GetLoader />}>
-      <Routes>
-        <Route index path="/*" element={<User />} />
-      </Routes>
-    </React.Suspense>
+      <React.Suspense fallback={<GetLoader />}>
+        <Routes>
+          {/*  */}
+          <Route index path="/*" element={<User />} />
+        </Routes>
+      </React.Suspense>
     </div>
   );
 }
