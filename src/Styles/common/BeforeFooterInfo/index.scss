@@ -1,0 +1,27 @@
+.beforeFooter{
+    width: 100%;
+    // border: 1px solid;
+    background-color: #fff;
+}
+.beforeFooter-container{
+    width: var(--width) !important;
+    margin-top: 30px ;
+    margin: auto !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    strong{
+        font-size: 20px;
+        color: var(--bgBlue) !important;
+    }
+}
+
+.beforeFooter-item{
+    // border: 1px solid;
+    padding: 10px !important;
+    margin: auto !important;
+}

@@ -1,0 +1,28 @@
+.banner-leftbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fff;
+    width: 100%;
+    height: 97%;
+    padding: 10px !important;
+
+    // border: 1px solid;
+
+    // gap: 0.5rem;
+    span{
+        padding: 2px 0px 2px 5px;
+        // border: 1px solid;
+        cursor: pointer;
+        width: 100%;
+    }
+    span:hover{
+        color: var(--bgBlue);
+        transition: ease-in-out 0.2s;
+        background-color: var(--bgHoverWhite);
+    }
+    p{
+        cursor: pointer;
+    }
+}

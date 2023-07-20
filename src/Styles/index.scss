@@ -1,0 +1,18 @@
+@import "./User/index.scss";
+@import "./common/index.scss";
+@import "./theme/index.scss";
+
+body{
+    background-color: var(--bgCards) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: red !important;
+    /* change the color */
+    font-size: 30px !important;
+    /* change the size */
+}
+.marginAuto{
+
+}

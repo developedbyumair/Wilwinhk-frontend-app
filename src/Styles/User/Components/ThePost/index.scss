@@ -1,0 +1,11 @@
+@import "./Cards.scss";
+.home-post{
+    background-color: var(--bgCards);
+}
+.home-post-container {
+    width: var(--width) !important;
+    margin: auto;
+    // border: 1px solid;
+    background-color: var(--bgCards);
+    padding-bottom: 30px;
+}

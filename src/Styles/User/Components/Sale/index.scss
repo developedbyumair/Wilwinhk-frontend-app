@@ -1,0 +1,26 @@
+.home-sale{
+    padding-bottom: 30px;
+}
+.home-sale-contain{
+    width: var(--width) !important;
+    margin: auto;
+}
+.home-sale-container{
+    padding-bottom: 30px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border-radius: 5px;
+
+    img{
+        width: 260px;
+        height: 410px;
+        border-radius: 5px;
+        object-fit: contain;
+
+    }
+}
+.home-sale-Firstcontainer-FirstItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+@import "./UpperNav.scss";
+@import "./MidNav.scss";
+@import "./Tablet.scss";
+@import "./LowerNav.scss";
+// .navbar-container{
+//     background-color: whitesmoke !important;
+// }
+.navbar-container{
+    background-color: white!important;
+    color: black !important;
+    border-bottom: 1px solid var(--bgBlue);
+    margin-bottom: 10px !important;
+} 
+.css-7e0s21-MuiPaper-root-MuiAppBar-root{
+    box-shadow: none !important;
+}

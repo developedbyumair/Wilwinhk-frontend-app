@@ -1,0 +1,17 @@
+@import "./sectionOne.scss";
+@import "./SectionTwo.scss";
+@import "./fouthsection/index.scss";
+@import "./thirdSection/index.scss";
+@import "./fifthSection/index.scss";
+@import "./infoImages.scss";
+@import "./infoData.scss";
+.productInfo{
+    margin-top: 30px;
+}
+.productInfo-container{
+    margin-top: 30px;
+    width: var(--width);
+    margin: auto;
+    background-color: var(--bgCards);
+    // border: 1px solid;
+}

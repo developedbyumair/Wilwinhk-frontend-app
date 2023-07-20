@@ -1,0 +1,25 @@
+@import "./Compare.scss";
+body{
+    position: relative;
+    // overflow: hidden;
+}
+.Drawer-container{
+    position: fixed;
+    top: 33%;
+    right: 0px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 40px;
+    z-index: 999;
+    .Drawer-container-card{
+        width: 100%;
+        // border: 1px solid;
+        padding: 3px 0px;
+    }
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

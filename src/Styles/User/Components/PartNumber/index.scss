@@ -1,0 +1,12 @@
+@import "./tab.scss";
+.partNumber-container{
+    width: var(--width) !important;
+    margin: auto;
+    border-radius: 5px;
+    padding-bottom:30px;
+}
+.partNumber-container-itemTwo{
+    background-color: #fff !important;
+        border-radius: 5px;
+        padding: 10px 30px;
+}

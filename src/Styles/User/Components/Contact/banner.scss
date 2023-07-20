@@ -1,0 +1,25 @@
+.contact-banner{
+    width: var(--width);
+    margin: auto;
+    background-color: white !important;
+}
+.contact-banner-boxOne{
+    width: 400px;
+    height: 432px;
+    object-fit: contain;
+}
+.contact-banner-boxTwo{
+    display: flex;
+    margin-left: 20px !important;
+    flex-direction:column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 40px;
+    
+    h1{
+        font-size: 32px;
+    }
+    span{
+        font-size: 14px;
+    }
+}

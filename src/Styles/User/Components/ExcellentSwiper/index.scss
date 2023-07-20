@@ -1,0 +1,15 @@
+@import "./Swiper.scss";
+@import "./swiperBox.scss";
+@import "./trustpilot.scss";
+.excellentHome-Swiper{
+    padding-bottom: 30px;
+
+    .container{
+        width: var(--width) !important;
+        padding: 10px 5px 25px;
+        // border: 1px solid;
+        border-radius: 5px;
+        margin: auto;
+        background-color: #fff;
+    }
+}

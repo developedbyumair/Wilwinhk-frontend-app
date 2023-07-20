@@ -1,0 +1,32 @@
+.profile-main-container{
+    // border: 1px solid;
+    background-color: var(--bgCards);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.profile-main-btn{
+    margin-left: auto !important; 
+}
+.profile-modify-btn{
+    padding: 10px 0px 0px;
+}
+@media screen and (max-width:500px) {
+.profile-main-container {
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column !important;
+        gap: 0.2rem;
+        justify-content: center;
+        align-items: center;
+        h3{
+            margin: 0px;
+        }
+    }
+        .profile-main-btn {
+            margin-left:0px !important;
+        }
+}

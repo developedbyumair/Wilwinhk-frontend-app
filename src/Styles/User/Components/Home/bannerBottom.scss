@@ -1,0 +1,25 @@
+.bannerDown{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--bgCards);
+}
+.bannerDown-container{
+    width: var(--width) !important;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+}
+.midNav-logout{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.bannerDown-items{
+    border-right: 1px solid var(--grayText);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

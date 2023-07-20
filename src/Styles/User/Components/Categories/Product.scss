@@ -1,0 +1,18 @@
+.product-category-itemOne-image{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    img{
+        width: 150px !important;
+        height: 70px !important;
+        // border: 1px solid;
+        object-fit: contain;
+    }
+}
+.product-category-itemTwo-image{
+    p{
+        margin: 0px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,26 @@
+.allcategories-main{
+
+
+    .allcategories-main-item{
+
+
+        .card-container{
+
+
+            .items-heading{
+                display: flex !important;
+                justify-content: space-between !important; 
+                align-items: center !important;
+
+                h3{
+                    margin: 10px 0px !important;
+                }
+            }
+        }
+
+    }
+
+}
+.allcategories-subCategory{
+    cursor: pointer;
+}

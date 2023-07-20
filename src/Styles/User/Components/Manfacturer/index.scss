@@ -1,0 +1,19 @@
+.manfacturer{
+    background-color: var(--bgCards);
+    padding-bottom: 30px;
+}
+.manfacturer-container{
+    width: var(--width) !important;
+    margin: auto;
+    // border: 1px solid;
+        border-radius: 5px;
+        padding: 10px;
+ 
+}
+.manfacturer-itemTwo-imgs:hover{
+box-shadow: var(--shadow4);
+}
+.manfacturer-itemTwo{
+    background-color: white; 
+      padding: 10px 0px 10px 0px;
+}

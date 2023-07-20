@@ -1,0 +1,76 @@
+.midNav-container{
+    display: flex;
+    // height: 50px;
+    // border: 1px solid;
+    margin: auto; 
+    padding: 10px 0px;
+    width: var(--width);
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.midNav-logout{
+    cursor: pointer !important;
+}
+.midNav-boxOne{
+    flex: 1.6;
+    .img{
+        width: 150px;
+        height: 50px;
+        object-fit: cover;
+    }
+}
+.midNav-select{
+    height: 38px;
+    border: none !important;
+    outline: none !important;
+}
+.midNav-boxTwo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    // width: 780px;
+    flex: 4;
+    border: 2px solid var(--bgBlue);
+    border-radius: 3px; 
+}
+.midNav-boxThree{
+    display: flex;
+    flex: 1.1;
+    justify-content:space-between;
+    align-items: center;
+    // border: 1px solid;
+}
+.midNav-boxTwo > input{
+    width: 90%;
+    border: none;
+    // border: 1px solid green;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+}
+.midNav-Searchicon{
+    background-color: var(--bgBlue);  
+    cursor: pointer;
+    height: 44px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    align-items: center; 
+}
+.icons-color{
+color: var(--bgBlue);
+cursor: pointer;
+}
+.midNav-boxThree-item{
+// border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    padding: 0px !important;
+}

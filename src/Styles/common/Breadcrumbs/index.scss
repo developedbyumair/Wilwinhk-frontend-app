@@ -1,0 +1,26 @@
+.breadcrumbs-spacing{
+    max-width: var(--width) !important;
+    min-width: var(--width) !important;
+    margin: auto !important;
+    padding: 15px 0px 0px;
+    // border: 1px solid;
+}
+.breadcrumbs{
+    // padding-top: 1rem;
+}
+.typography-breadcrumbs{
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.3rem;
+} 
+.link-breadcrumbs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.1rem;
+    padding: 3px;
+} 

@@ -1,0 +1,25 @@
+.indexHome-container{
+
+    padding-bottom:30px;
+    .box{
+        width: var(--width);
+        margin: auto;
+        background-color: #fff;
+        padding:10px 0px;
+        border-radius: 5px;
+    }
+    .stack{
+        // border: 1px solid;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+
+   
+   .pagination{
+    // width: 100%;
+    // border: 1px solid red;
+   }
+    }
+    
+}

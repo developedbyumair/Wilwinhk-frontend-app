@@ -1,0 +1,16 @@
+@import "./Custom/Border/border.scss";
+@import "./Custom/Divider/HorizontalDivider.scss";
+@import "./BeforeFooterInfo/index.scss";
+@import "./ProductCards/index.scss";
+@import "./Buttons/index.scss";
+@import "./Breadcrumbs/index.scss";
+.whiteColorText{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

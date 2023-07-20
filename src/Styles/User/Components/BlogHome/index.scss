@@ -1,0 +1,14 @@
+@import "./cards.scss";
+.home-blog{
+background-color: var(--bgCards);
+padding-bottom: 30px;
+}
+.home-blog-container{
+width: var(--width);
+margin: auto;
+}
+.home-blog-container-div-itemOne{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}

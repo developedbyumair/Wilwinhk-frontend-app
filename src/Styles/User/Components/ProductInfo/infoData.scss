@@ -1,0 +1,79 @@
+.infoData-product{
+    // border: 1px solid;
+    height: 100% !important;
+    padding: 0px 10px 10px 15px;
+
+    span{
+        font-size: 14px;
+        color: var(--grayText);
+    }
+    info{
+        font-size: 14px;
+        }
+    .itemOne{ 
+        border-bottom: 1px solid;
+    }
+    .itemTwo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+    .itemThree{
+        gap: 1rem;
+        display: flex;
+            justify-content: flex-start;
+            align-items: center;
+    }
+    .itemFour{
+        gap: 1rem;
+        display: flex;
+            justify-content: flex-start;
+            align-items: center;
+    }
+    .itemFive{
+        gap: 1rem;
+        display: flex;
+            justify-content: flex-start;
+            align-items: center;
+    }
+    .itemSix{
+        gap: 1rem;
+        display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            img{
+                width: 115px;
+                height: 34px;
+            }
+    }
+    .itemSeven{
+        gap: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .itemEight{
+        gap: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+}
+@media screen and (max-width:600px) {
+.infoData-product {
+        .itemEight {
+            gap: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+.single-product{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}

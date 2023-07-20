@@ -1,0 +1,9 @@
+@import "./boxOne.scss";
+@import "./cards.scss";
+.preferental-container{
+    width: var(--width) !important;
+    margin: auto;
+    padding: 30px 10px 30px 10px;
+    background-color: var(--bgCards); 
+}
+

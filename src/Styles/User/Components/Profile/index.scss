@@ -1,0 +1,21 @@
+@import "./leftbar.scss";
+@import "./Main.scss";
+@import "./modifyData.scss";
+.profile-container{
+background-color: var(--bgCards);
+}
+.profile-itemOne-container{
+width: var(--width) !important;
+margin: auto;
+}
+.profile-itemTwo-container{
+width: var(--width) !important;
+margin: auto;
+
+.itemTwo{
+
+    .itemTwo-card{
+        padding: 20px;
+    }
+}
+}

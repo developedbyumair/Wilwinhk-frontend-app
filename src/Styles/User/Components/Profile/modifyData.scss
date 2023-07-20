@@ -1,0 +1,21 @@
+.modifyData-profile{
+    padding: 0px 20px 20px;
+    width: 50%;
+}
+.modifyData-profile-container{
+
+    .itemOne{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.3rem;
+        h2{
+        }
+    }
+    .itemEight{
+        padding: 10px 0px 0px;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+}

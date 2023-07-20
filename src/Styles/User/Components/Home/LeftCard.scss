@@ -1,0 +1,12 @@
+.leftcard-container{
+    width: 800px !important; 
+    .items{
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        gap: 1rem;
+        .heading{
+            color: var(--bgBlue) !important;
+        }
+    }
+}

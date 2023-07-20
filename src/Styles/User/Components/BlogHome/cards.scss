@@ -1,0 +1,32 @@
+.home-blog-container-Card {
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 16px;
+}
+.home-blog-container-Card:hover {
+    box-shadow: var(--shadow4);
+}
+.home-blog-Card-sectionOne {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    span{
+        font-size: 14px;
+        color: #666;
+    }
+}
+
+.home-blog-Card-sectionTwo {
+    p{font-size: 14px;}
+}
+
+.home-blog-Card-sectionThree {
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+}

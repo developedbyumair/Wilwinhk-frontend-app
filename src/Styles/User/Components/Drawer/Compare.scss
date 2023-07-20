@@ -1,0 +1,42 @@
+.image-compare{
+    width: 100% !important;
+    height: 80px !important;
+    object-fit: contain;
+    margin: auto !important;
+    // border: 1px solid;
+}
+.compare-container{
+    background-color: var(--bgCards) !important;
+    height: 100vh;
+    .itemOne{
+        background-color: white;
+        padding: 15px 0px;
+    }
+}
+.marginleft{
+    margin-left: auto !important;
+}
+.card-compare{
+    padding: 10px 5px; 
+}
+.compare-item-img-icon{
+    position: relative;
+}
+.icons-compare-delete{
+    position: absolute;    
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    height:100%;
+    width:100%;
+    transition: all ease-in-out 0.6s;
+    border-radius: 5px;
+    // display: flex;
+    // justify-content: flex-start;
+    // align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.card-compare:hover .icons-compare-delete{
+    opacity: 1;
+    cursor: pointer;
+}

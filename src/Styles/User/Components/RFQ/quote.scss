@@ -1,0 +1,67 @@
+ .quote-container{
+    padding: 10px;
+ }
+.quote-container-itemOne{
+    
+}
+ .quote-container-itemTwo{
+
+    .container{
+
+        .container-itemOne{
+            border: 1px dotted gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+
+            h3{
+                margin: 0%;
+            }
+            span{
+                font-size: 12px;
+            }
+        }
+
+        .container-itemTwo{
+            display: flex;
+            padding-left: 5px;
+            // border: 1px solid;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+            span{
+                font-size: 10px;
+            }
+        }
+    }
+ }
+ .quote-rounded-icons-div{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.3rem !important;
+ }
+ .quote-rounded-icons{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1976d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+ }
+ .quote-container-itemThree{
+    margin: 30px 0px !important;
+ }
+ .quote-container-itemThree-container{
+     .item-three{
+        display: flex !important;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+     }
+
+ }

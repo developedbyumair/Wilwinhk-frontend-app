@@ -1,0 +1,30 @@
+.leftbar-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    
+
+    .icons{
+        width: 40px !important; 
+        height: 40px !important;
+        border-radius: 50% !important;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .icoName{
+        width: 70%;
+        z-index: 1;
+        position: relative;
+        top: 0px;
+        left: 25px;
+        border-radius: 3px;
+        background-color: var(--whiteColor);
+        // border: 1px solid;
+        padding: 15px 20px;
+    }
+}

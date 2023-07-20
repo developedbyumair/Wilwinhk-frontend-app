@@ -1,0 +1,20 @@
+@import "./PopularCards.scss";
+@import "./CardBlogs.scss";
+@import "./MainSectionOne.scss";
+@import "./MainSectionTwo.scss";
+@import "./SectionTwomainCards.scss";
+@import "./SingleBlog.scss";
+.cut-text{
+    text-overflow: ellipsis !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+}
+.uppercase-text{
+    text-transform:capitalize;
+}
+.main-pagination{
+    margin: auto !important;
+}
+.text-center{
+    text-align: center !important;
+}

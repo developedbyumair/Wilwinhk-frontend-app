@@ -1,0 +1,23 @@
+.swiperBox{
+    // border: 1px solid;
+    padding-left: 20px;
+    img{
+        width: 80px;
+    }
+    h4{
+        margin: 0px;
+    }
+
+}
+.swiperBox-verified{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #666;
+}
+.swiperBox-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #666;
+}

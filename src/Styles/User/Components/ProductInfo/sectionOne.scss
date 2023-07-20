@@ -1,0 +1,27 @@
+.product-infoSection{
+width: 100%;
+// margin: 0px !important;
+// border: 1px red solid;
+// padding: 20%;
+}
+.container-itemOne{
+background-color: #fff;
+border-radius: 5px;
+padding: 15px;
+// border: 1px solid;
+
+}
+.itemTwo-container{
+    background-color: #fff;
+    padding: 10px;
+    // border: 1px solid;
+    border-radius: 5px;
+    
+    number{
+        color: var(--orangeColor);
+    }
+}
+.container-itemOne--container{
+    height: 100% !important;
+    // border: 1px solid;
+}
