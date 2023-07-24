@@ -7,19 +7,22 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import { useDispatch, useSelector } from "react-redux";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import { loginAccessToken, loginSuccess } from "../../../../Store/Features/userSlice";
+import {
+  loginAccessToken,
+  loginSuccess,
+} from "../../../../Store/Features/userSlice";
 import { Metric, Title } from "@tremor/react";
 function Login() {
   const MySwal = withReactContent(Swal);
-  const userInfo = useSelector(state=>state.user)
-  const dispatch = useDispatch()
+  const userInfo = useSelector((state) => state.user);
+  const dispatch = useDispatch();
   // console.log(userInfo,"userInfo");
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState(false);
   const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState(false);
   const [ErrorMessage, setErrorMessage] = useState();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -31,10 +34,8 @@ function Login() {
         password,
       };
       // console.log(data, "formData");
-      if(data){
-
+      if (data) {
         try {
-  
           const res = await axios.post(
             "http://3.7.46.114:8000/api/v1/login",
             data
@@ -47,28 +48,26 @@ function Login() {
               text: "Please verify account for login",
             });
           }
-          if (res.data.authToken) { 
-            dispatch(loginAccessToken({authtoken:res.data.authToken}));
+          if (res.data.authToken) {
+            dispatch(loginAccessToken({ authtoken: res.data.authToken }));
             setEmailError(false);
             setPasswordError(false);
             console.log("into");
-              const fetch = await axios.get(
-                "http://3.7.46.114:8000/api/v1/getUserDetails",
-                {
-                  headers: {
-                    auth: res.data.authToken,
-                  },
-                  withCredentials: true,
-                }
-              );
-              // console.log(fetch.data, "fetchData");
-              dispatch(loginSuccess(fetch.data.user));
-              navigate("/");
-              
+            const fetch = await axios.get(
+              "http://3.7.46.114:8000/api/v1/getUserDetails",
+              {
+                headers: {
+                  auth: res.data.authToken,
+                },
+                withCredentials: true,
+              }
+            );
+            // console.log(fetch.data, "fetchData");
+            dispatch(loginSuccess(fetch.data.user));
+            navigate("/");
           }
-          
         } catch (error) {
-          setErrorMessage(error.response.data)
+          setErrorMessage(error.response.data);
           // console.log(error.response, "responseData");
           if (
             error.response?.data.error ===
@@ -76,15 +75,12 @@ function Login() {
           ) {
             setEmailError(true);
           }
-      }
+        }
         // error.response?.data.error.map((e)=>{
         //   if (e.msg === "Password is required") {
         //     setPasswordError(true);
         //   }
         // })
-
-        
-        
       }
     } else if (email === "") {
     } else if (password === "") {
@@ -95,13 +91,14 @@ function Login() {
     <div className="signup-container">
       <Grid container className="" spacing={2}>
         <Grid
-          sx={{ m: "30px 0px 0px 0px" }}
+          sx={{ m: "30px 0px 0px 0px", cursor: "pointer" }}
           item
           className="breadcrumbs-signin"
           xs={12}
+          onClick={() => navigate("/")}
         >
           <ArrowBackIosIcon />
-          <Metric style={{cursor:"pointer"}} onClick={()=>navigate("/")}>Home</Metric>
+          <Metric>Home</Metric>
         </Grid>
         <Grid item className="" xs={12}>
           <Grid className="" container rowSpacing={1} columnSpacing={2}>
